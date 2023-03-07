@@ -22,7 +22,7 @@ public class Main {
         HotDrinksVendingMachine HotDrinks = new HotDrinksVendingMachine();
         HotDrinks.initProduct(drinks);
         System.out.println();
-        System.out.println("Следующие напитки имеют температуру не выше 70 °C: ");
+        System.out.println("Следующие напитки имеют температуру не выше 75 °C: ");
 
         HotDrinks.getProduct(75);
         HotDrinks.getProduct("espresso");
